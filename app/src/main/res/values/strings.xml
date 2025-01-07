@@ -4,4 +4,6 @@
     <string name="enter_your_message">enter your message</string>
     <string name="disconnect">disconnect</string>
     <string name="connect">connect</string>
+    <string name="type_a_user">Type a user!</string>
+    <string name="ok_bro">Ok bro</string>
 </resources>

@@ -32,9 +32,9 @@ class MainActivity : AppCompatActivity() {
         //Geting username and room id from LoginActivity
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val username= intent.extras?.getString("username")
-        val roomId= intent.extras?.getString("room")
-        binding.chattitle.text= ">You're in: ${roomId}"
+        val username = intent.extras?.getString("username")
+        val roomId = intent.extras?.getString("room")
+        binding.chattitle.text= ">You're in: $roomId"
 
         //Connecting to data base to get saved messages
         val database = Firebase.database
